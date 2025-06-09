@@ -1,0 +1,12 @@
+{
+  "name": "website-archiver-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the website archiver",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+} 
