@@ -64,12 +64,21 @@ uvicorn main:app --reload
 
 ### 3. Frontend Setup
 
-#### Serve with Python
+You have two options to serve the frontend:
+
+#### Option 1: Using Node.js
+```bash
+cd frontend
+npm install
+npm start
+```
+
+#### Option 2: Serve with Python
 ```bash
 cd frontend
 python3 -m http.server 3000
 ```
-- Then visit [http://localhost:3000](http://localhost:3000)
+The frontend will be available at [http://localhost:3000](http://localhost:3000)
 
 
 ## Notes
